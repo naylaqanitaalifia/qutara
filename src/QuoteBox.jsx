@@ -55,9 +55,11 @@ function QuoteBox({ setBgColor }) {
           </a>
           <a
             id="tumblr-quote"
-            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-              `"${quote}" - ${author}`
-            )}`}
+            href={`https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,inspiration&caption=${encodeURIComponent(
+              author
+            )}&content=${encodeURIComponent(
+              quote
+            )}&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button`}
             style={{ backgroundColor: color }}
             title="Post this quote on tumblr!"
             target="_blank"
