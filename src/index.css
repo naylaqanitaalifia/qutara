@@ -78,3 +78,43 @@ body {
   color: #fff;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  #quote-box {
+    width: 90%;
+    padding: 24px;
+  }
+
+  #text {
+    font-size: 18px;
+  }
+
+  .quotes i {
+    font-size: 24px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .left-buttons {
+    justify-content: center;
+  }
+
+  .left-buttons a {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .right-button {
+    width: 100%;
+  }
+
+  #author {
+    font-size: 14px;
+    text-align: center;
+  }
+}
